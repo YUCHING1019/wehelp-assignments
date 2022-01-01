@@ -35,14 +35,15 @@
         { background-color: lightblue;font-weight: bolder;
          font-size: 40px;text-align: center; padding: 150px;
         }
-        .content{width: 1200px;margin-left: auto;margin-right: auto;margin-top:30px;display:flex;flex-wrap: wrap;}
+        .content{width: 1200px;margin-left: auto;margin-right: auto;margin-top:30px;display:flex;flex-wrap: wrap;justify-content: center;}
         .box{
             width: 276px;padding: 0px;margin: 10px; height:230px;
             background-color: skyblue;
             display:inline-block;  vertical-align:top;
+            flex:none;
         }
         .icon{flex: none;width: 8% ; display: none;  }
-        .img{width:276px; height:auto; }
+        .img{width:276px; height:auto;object-fill:cover; }
         @media screen and (max-width:1200px) {
             .content{width: 90%; }
             .box{width: 45%;}
